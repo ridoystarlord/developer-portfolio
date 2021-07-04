@@ -11,8 +11,12 @@ h1{
     color: orange;
 }
 
-.header{
+section{
     display: flex;
+    margin-bottom: 150px;
+}
+
+.header{
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
 }
@@ -23,7 +27,7 @@ h1{
 .half img{
     width: 100%;
 }
-p{
+p {
     text-align: justify;
 }
 .hireMe{
@@ -33,4 +37,24 @@ p{
     border-radius: 10px;
     color: white;
     font-weight: 700;
+}
+.dream{
+    width: 50%;
+    padding-left: 5%;
+}
+.downloadResume{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.dream-big{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-right{
+    padding-right: 10%;
 }
